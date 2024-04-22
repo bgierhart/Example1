@@ -7,7 +7,6 @@ Created on Wed Feb 21 09:16:18 2024
 """
 import streamlit as st
 
-st.title("Temperature Converter")
 def convert_fahrenheit(temperature):
     F2C = ((float(temperature)-32)*5)/9
     F2K = (5/9)*(float(temperature)-32)+273.15
